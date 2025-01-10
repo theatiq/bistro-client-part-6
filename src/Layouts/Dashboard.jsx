@@ -80,10 +80,10 @@ const Dashboard = () => {
               </li>
               <li>
                 <NavLink
-                  to={"/dashboard/reservation"}
+                  to={"/dashboard/history"}
                   className={"flex gap-2 items-center"}
                 >
-                  <FaCalendar></FaCalendar> Reservation
+                  <FaCalendar></FaCalendar> Payment History
                 </NavLink>
               </li>
               <li>
@@ -104,10 +104,10 @@ const Dashboard = () => {
               </li>
               <li>
                 <NavLink
-                  to={"/dashboard/bookings"}
+                  to={"/dashboard/paymentHistory"}
                   className={"flex gap-2 items-center"}
                 >
-                  <FaList></FaList> Bookings
+                  <FaList></FaList> Payment Real History
                 </NavLink>
               </li>
             </>
